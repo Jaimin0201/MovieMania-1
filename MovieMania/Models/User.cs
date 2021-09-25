@@ -27,7 +27,6 @@ namespace MovieMania.Models
         public string City { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
-        public string Cover { get; set; }
         public string PreferredName { get; set; }
 
         public virtual ICollection<Movie> Movies { get; set; }

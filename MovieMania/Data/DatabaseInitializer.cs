@@ -27,7 +27,6 @@ namespace MovieMania.Data
                 City = "Sydney",
                 State = "NSW",
                 Country = "Australia",
-                Cover = "http:www.teste.com.au/cover",
                 PreferredName = "Marcelo Cavaliere"
 
             });
@@ -46,7 +45,6 @@ namespace MovieMania.Data
                 City = "Sydney",
                 State = "NSW",
                 Country = "Australia",
-                Cover = "http:www.teste.com.au/cover",
                 PreferredName = "Elaine Lima"
 
             });
@@ -65,7 +63,6 @@ namespace MovieMania.Data
                 City = "Sydney",
                 State = "NSW",
                 Country = "Australia",
-                Cover = "http:www.teste.com.au/cover",
                 PreferredName = "Giuseppe Cavaliere"
 
             });

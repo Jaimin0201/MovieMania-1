@@ -10,17 +10,21 @@ using MovieMania.Data;
 using MovieMania.Models;
 using System.Security.Claims;
 using System.Security.Principal;
+using Microsoft.AspNet.Identity;
 
 namespace MovieMania.Controllers
 {
+    [Authorize]
     public class UsersController : Controller
     {
         private MovieManiaContext db = new MovieManiaContext();
+        public string userId = "";
 
-        
         // GET: Users
         public ActionResult Index()
         {
+
+            ViewBag.userId = User.Identity.GetUserName();
             return View(db.Users.ToList());
         }
 

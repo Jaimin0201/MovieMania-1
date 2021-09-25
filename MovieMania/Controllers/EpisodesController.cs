@@ -11,8 +11,11 @@ using MovieMania.Models;
 
 namespace MovieMania.Controllers
 {
+    [Authorize]
     public class EpisodesController : Controller
     {
+        
+
         private MovieManiaContext db = new MovieManiaContext();
 
         // GET: Episodes

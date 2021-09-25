@@ -8,7 +8,6 @@
 
 <p>
     @Html.ActionLink("Create New", "Create")
-    @User.Identity.Name
 </p>
 
 
@@ -55,9 +54,6 @@
             Country
         </th>
         <th>
-            Cover
-        </th>
-        <th>
             Preffered name
         </th>
         <th>
@@ -67,6 +63,12 @@
 
     @foreach (var item in Model)
     {
+        if (ViewBag.userId != "admin@admin.com" &&
+            ViewBag.userId != item.email)
+        {
+            continue;
+        }
+
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.FirstName)
@@ -106,9 +108,6 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Country)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Cover)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.PreferredName)

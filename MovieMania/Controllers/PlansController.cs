@@ -11,6 +11,7 @@ using MovieMania.Models;
 
 namespace MovieMania.Controllers
 {
+    [Authorize]
     public class PlansController : Controller
     {
         private MovieManiaContext db = new MovieManiaContext();
