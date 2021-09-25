@@ -1,0 +1,74 @@
+﻿@model MovieMania.Models.Episode
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Episode Details</h2>
+
+<div>
+    <h4>Episode</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Title:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            Season number:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SeasonNumber)
+        </dd>
+
+        <dt>
+            Episode number:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EpisodeNumber)
+        </dd>
+
+        <dt>
+            Hours:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DurationHours)
+        </dd>
+
+        <dt>
+            Min:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DurationMin)
+        </dd>
+
+        <dt>
+            Release date:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
+        </dd>
+
+        <dt>
+            Description:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.EpisodeId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

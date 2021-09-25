@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieMania", "MovieMania\MovieMania.csproj", "{15A3F0F3-D207-453E-82AB-DE3FABE3869D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieMania.Tests", "MovieMania.Tests\MovieMania.Tests.csproj", "{0590D6CC-D112-4D58-B315-D4AE50DD56A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15A3F0F3-D207-453E-82AB-DE3FABE3869D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15A3F0F3-D207-453E-82AB-DE3FABE3869D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15A3F0F3-D207-453E-82AB-DE3FABE3869D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15A3F0F3-D207-453E-82AB-DE3FABE3869D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0590D6CC-D112-4D58-B315-D4AE50DD56A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0590D6CC-D112-4D58-B315-D4AE50DD56A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0590D6CC-D112-4D58-B315-D4AE50DD56A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0590D6CC-D112-4D58-B315-D4AE50DD56A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3305760-F6D0-444B-A4C6-B2AF0EED3788}
+	EndGlobalSection
+EndGlobal
