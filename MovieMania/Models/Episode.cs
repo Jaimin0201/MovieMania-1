@@ -20,6 +20,7 @@ namespace MovieMania.Models
         public int DurationHours { get; set; }
         public int DurationMin { get; set; }
         public DateTime ReleaseDate { get; set; }
+        public string  Cover { get; set; }
         public string Description { get; set; }
 
         public virtual ICollection<User> Users { get; set; }

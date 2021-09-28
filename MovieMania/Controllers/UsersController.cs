@@ -54,7 +54,7 @@ namespace MovieMania.Controllers
         // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "UserId,FirstName,LastName,DOB,email,Password,UnitNum,StreetNum,StreetName,Complement,Suburb,City,State,Country,Cover,PreferredName")] User user)
+        public ActionResult Create([Bind(Include = "UserId,FirstName,LastName,DOB,email,Password,UnitNum,StreetNum,StreetName,Complement,Suburb,City,State,Country,PreferredName")] User user)
         {
             if (ModelState.IsValid)
             {

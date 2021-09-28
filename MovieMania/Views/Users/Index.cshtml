@@ -6,9 +6,15 @@
 
 <h2>Users</h2>
 
-<p>
-    @Html.ActionLink("Create New", "Create")
-</p>
+
+
+
+@if (ViewBag.userId == "admin@admin.com"){
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+ }
+
 
 
 

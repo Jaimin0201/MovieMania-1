@@ -12,24 +12,23 @@ namespace MovieMania.Data
     {
         protected override void Seed(MovieManiaContext context)
         {
-            context.Users.Add(new User
-            {
-                FirstName = "Marcelo",
-                LastName = "Ferreira Cavaliere",
-                DOB = DateTime.Parse("04/02/1988"),
-                email = "marcelocavaliere@gmail.com",
-                Password = "123456",
-                UnitNum = 5,
-                StreetNum = 100,
-                StreetName = "O'Brien st",
-                Complement = "",
-                Suburb = "Bondi Beach",
-                City = "Sydney",
-                State = "NSW",
-                Country = "Australia",
-                PreferredName = "Marcelo Cavaliere"
-
-            });
+         //  context.Users.Add(new User
+         //  {
+         //      FirstName = "Marcelo",
+         //      LastName = "Ferreira Cavaliere",
+         //      DOB = DateTime.Parse("04/02/1988"),
+         //     email = "marcelocavaliere@gmail.com",
+         //       Password = "123456",
+         //       UnitNum = 5,
+         //       StreetNum = 100,
+         //       StreetName = "O'Brien st",
+         //       Complement = "",
+         //       Suburb = "Bondi Beach",
+         //       City = "Sydney",
+         //       State = "NSW",
+         //       Country = "Australia",
+         //       PreferredName = "Marcelo Cavaliere"
+         //   });
             context.Users.Add(new User
             {
                 FirstName = "Elaine Cristina",
@@ -93,7 +92,7 @@ namespace MovieMania.Data
                 SerieTitle = "The Walking Dead",
                 SerieDescription = "In the wake of a zombie apocalypse, various survivors struggle to stay alive." +
                 " As they search for safety and evade the undead, they are forced to grapple with rival groups and difficult choices.",
-                Cover = "http://www.teste.com.au/cover",
+                Cover = "<img src='~/ images / Photo1.jpg' width='160' height='220'/>",
                 SeasonsNumber = 10
 
             });
